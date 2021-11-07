@@ -1,0 +1,30 @@
+.CharacteristicTable {
+    width: 100%;
+
+    thead {
+        tr {
+            th {
+                font-family: HeliosCond;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 28px;
+                letter-spacing: 0.01em;
+                color: #A6A4A2;
+            }
+        }
+    }
+
+    tbody {
+        tr {
+            th {
+                font-family: HeliosCond;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 34px;
+                line-height: 145%;
+                color: #333232;
+            }
+        }
+    }
+}

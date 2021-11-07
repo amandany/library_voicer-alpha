@@ -1,0 +1,38 @@
+.locationbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    // width: 500px;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        p {
+            font-family: HeliosCond;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 42px;
+            line-height: 145%;
+            color: #A6A4A2;
+        }
+
+        h3 {
+            font-family: HeliosCond;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 80px;
+            line-height: 145%;
+            color: #1B9FFB;
+        }
+    }
+
+    .middlediv{
+        border-left: 8px solid #EFEEEB;
+        border-right: 8px solid #EFEEEB;
+    }
+}

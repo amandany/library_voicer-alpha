@@ -1,0 +1,54 @@
+.SearchPanelBox {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SearchPanel {
+    width: 2164px;
+    height: 186px;
+    background: #FFFFFF;
+    border-radius: 200px;
+    font-family: HeliosCond;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 145%;
+    color: #A6A4A2;
+    padding: 0 100px;
+    outline: none
+}
+
+.SearchPanel:focus {
+    color: #000000;
+}
+
+.searchBtn {
+    position: relative;
+    right: 179px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    height: 165px;
+    background: #1B9FFB;
+    border-radius: 50%;
+    border: 0 solid transparent;
+    transform: scale(1);
+    animation: all .3s linear
+}
+
+.searchBtn:active {
+    animation: scaleanima .3s ease-in;
+}
+
+@keyframes scaleanima {
+    from {
+        transform: scale(1.2)
+    }
+
+    to {
+        transform: scale(0.8)
+    }
+}

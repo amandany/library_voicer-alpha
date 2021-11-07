@@ -1,0 +1,20 @@
+.SearchBooksContainer {
+    width: 1090px;
+    height: 500px;
+    background: #1B9FFB;
+    border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: HeliosCond;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 145%;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}

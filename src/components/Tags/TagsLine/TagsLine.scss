@@ -1,0 +1,36 @@
+.TagsContainer {
+    // background: red;
+    height: 150px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+
+    .TagsBtnClose {
+
+        // background: blue;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 20px;
+        border: 0 solid transparent;
+        background: transparent;
+        padding: 0 60px;
+        border-radius: 60px;
+
+        font-family: HeliosCond;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        color: #000000;
+        transition: all .3s ease-in;
+    }
+
+    .TagsBtnOpen {
+        background: #1C9DF8;
+        color: white;
+        transition: all .3s ease-in;
+    }
+}

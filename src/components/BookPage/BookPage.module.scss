@@ -1,0 +1,24 @@
+.BookPageContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 100px;
+}
+
+.bookSide{
+    img{
+        max-width: 800px;
+        max-height: 1000px;
+    }
+}
+
+.bookDetailBox{
+    width: 1200px;
+    // background-color: rgba(128, 128, 128, 0.603);
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 40px;
+}
